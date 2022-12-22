@@ -43,7 +43,7 @@ def get_connection():
 def get_driver():
     options = Options()
     options.headless = True
-    executable = './geckodriver.exe' if platform == 'Windows' else './geckodriver'
+    executable = './geckodriver.exe' if platform.system() == 'Windows' else './geckodriver'
     service = Service(executable_path=executable)
     # driver = webdriver.Firefox(service=service)
     driver = webdriver.Firefox(service=service, options=options)
