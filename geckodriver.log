@@ -20777,3 +20777,8 @@ DevTools listening on ws://127.0.0.1:33425/devtools/browser/6242fd41-aa85-4822-b
 DevTools listening on ws://127.0.0.1:59369/devtools/browser/e2930b7c-e2bf-4dc2-b599-68885f598c82
 DevTools listening on ws://127.0.0.1:44917/devtools/browser/13e5caaf-8914-43b7-b080-d7127c726d51
 DevTools listening on ws://127.0.0.1:40093/devtools/browser/910f4498-e31c-480b-b777-4349936ee4d3
+1671741328379	Marionette	INFO	Stopped listening on port 43725
+1671741328400	Marionette	INFO	Stopped listening on port 41861
+1671741329237	Marionette	INFO	Stopped listening on port 37547
+1671741329251	Marionette	INFO	Stopped listening on port 45321
+1671741329263	Marionette	INFO	Stopped listening on port 38777
