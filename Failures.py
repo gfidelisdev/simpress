@@ -1,46 +1,41 @@
-from sqlite3 import Error
 from datetime import datetime, date
-table = "counters"
+table = "failures"
 pk = "id"
 
 
-class Counter:
+class Failure:
+    id = None
     value = None
-    created_at = None
+    failure_time = None
     printer_id = None
 
-    def __init__(self, printer_id, total_prints, total_copies, total_scans, created_at=None):
-        self.total_copies = 'null' if total_copies is None else total_copies
-        self.total_prints = 'null' if total_prints is None else total_prints
-        self.total_scans = 'null' if total_scans is None else total_scans
+    def __init__(self, printer_id, failure_time=None):
         self.printer_id = printer_id
-        self.created_at = created_at
+        self.created_at = failure_time
 
-    def setCreatedAt(self, created_at):
-        if created_at is None:
-            self.created_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    def setFailureTime(self, failure_time):
+        if failure_time is None:
+            self.failure_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         else:
-            self.created_at == created_at
+            self.failure_time == failure_time
 
-    def save(self, conn, created_at=None):
+    def save(self, conn):
         try:
             cur = conn.cursor()
-            self.setCreatedAt(self.created_at)
-            query = f'INSERT into {table} (total_prints, total_copies, total_scans,created_at,printer_id) \
-                values ({self.total_prints},{self.total_copies},{self.total_scans},\'{self.created_at}\',{self.printer_id})'
+            self.setFailureTime(self.failure_time)
+            query = f'INSERT into {table} (printer_id, failure_time) \
+                values ({self.printer_id},\'{self.failure_time}\')'
             print(query)
             result = cur.execute(query)
             conn.commit()
             return result
-        except Error as error:
+        except Exception as error:
             print(error)
 
     def toDict(self):
         return {
-            "created_at": self.created_at,
-            "total_copies": self.total_copies,
-            "total_scans": self.total_scans,
-            "total_prints": self.total_prints,
+            "id": self.id,
+            "failure_time": self.failure_time,
             "printer_id": self.printer_id
         }
 
@@ -51,7 +46,7 @@ class Counter:
         return (arrResult)
 
     """
-    Carrega da base de dados os contadores com base nas condições dadas
+    Carrega da base de dados as falhas com base nas condições dadas
     dictAttrs deve ter o formato
     [
         {"field":"nome_do_campo"},
@@ -72,7 +67,7 @@ class Counter:
             query.append(' order by {pk}')
             cur = conn.cursor()
             column_names = list(map(lambda x: x[0], cur.description))
-            return Counter.getDict(cur.execute(f'{query}'), column_names)
+            return Failure.getDict(cur.execute(f'{query}'), column_names)
         except Exception as error:
             print(error)
 

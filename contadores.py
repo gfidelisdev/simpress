@@ -10,6 +10,7 @@ from selenium.webdriver.firefox.options import Options
 import DBLoad
 import Counters
 import Printers
+import Failures
 import concurrent.futures
 import mysql.connector
 import platform
@@ -140,6 +141,8 @@ def main():
         else:
             print(
                 f'Falha ao salvar a impressora {counter["printer_id"]}. Aparenta estar offline')
+            failure = Failures.Failure(counter["printer_id"])
+            failure.save(conn)
 
 
 if __name__ == '__main__':
