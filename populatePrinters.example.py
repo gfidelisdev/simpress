@@ -1,0 +1,48 @@
+from contadores import get_driver, get_sn, get_connection
+import Printers
+import DBLoad
+from sqlite3 import Error
+import concurrent.futures
+
+# Lista de IPs das impressoras - string
+IP_LIST = [
+    
+]
+
+
+def savePrinter(driver, ip, conn):
+    try:
+        driver.get(f'https://{ip}/hp/device/InternalPages/Index?id=UsagePage')
+        sn = get_sn(driver)
+        print(f'SN: {sn} == IP: {ip}')
+        printer = Printers.Printer(sn=sn, ip=ip)
+        return f'Impressora {ip}:{sn} inserida com sucesso',printer.save(conn)
+    except Exception as error:
+        return f'{error}'
+
+
+def createPrintersInDatabase(conn):
+    try:
+        result = []
+        driver = get_driver()
+        for ip in IP_LIST:
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                futures = []
+                futures.append(executor.submit(savePrinter, driver=driver, ip=ip, conn=conn))
+            for future in concurrent.futures.as_completed(futures):
+                result.append(future.result())
+        driver.quit()
+        return result
+    except Exception as error:
+        return f'{error}'
+
+
+
+
+def main():
+    # conn = DBLoad.create_connection('./db.sqlite3')
+    conn = get_connection() 
+    createPrintersInDatabase(conn)
+
+if __name__ == "__main__":
+    main()
