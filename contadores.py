@@ -36,7 +36,7 @@ def get_connection():
 def get_driver():
     options = Options()
     options.headless = True
-    service = Service(executable_path='./geckodriver.exe')
+    service = Service(executable_path='./geckodriver')
     # driver = webdriver.Firefox(service=service)
     driver = webdriver.Firefox(service=service, options=options)
     return driver
