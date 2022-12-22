@@ -20577,3 +20577,18 @@ DevTools listening on ws://127.0.0.1:60699/devtools/browser/ac480868-6622-4b9f-8
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1671735567480	geckodriver	INFO	Listening on 127.0.0.1:50901
+1671735568057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo9ovpv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671735568955	Marionette	INFO	Marionette enabled
+1671735568959	Marionette	INFO	Listening on port 45183
+WebDriver BiDi listening on ws://127.0.0.1:47267
+Read port: 45183
+1671735569205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo9ovpv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47267/devtools/browser/cae084cd-f419-4d07-9c6d-ec928f97882b
+1671735575970	Marionette	INFO	Stopped listening on port 45183
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
