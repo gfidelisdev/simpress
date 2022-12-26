@@ -1,10 +1,8 @@
 from contadores import get_driver, get_sn, get_connection
 import Printers
-import DBLoad
-from sqlite3 import Error
 import concurrent.futures
 
-# Lista de IPs das impressoras - string
+# Lista de IPs das impressoras - strings - alterar para os ips das impressoras da regional
 IP_LIST = [
     '192.168.10.101',
     '192.168.10.102',
@@ -47,7 +45,6 @@ def createPrintersInDatabase(conn):
 
 
 def main():
-    # conn = DBLoad.create_connection('./db.sqlite3')
     conn = get_connection()
     createPrintersInDatabase(conn)
 

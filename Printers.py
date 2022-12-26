@@ -1,6 +1,6 @@
-from sqlite3 import Error
 table = 'printers'
-pk='id'
+pk = 'id'
+
 
 class Printer:
     def __init__(self, sn, ip):
@@ -10,8 +10,10 @@ class Printer:
     def save(self, conn):
         try:
             cur = conn.cursor()
-            print(f'INSERT into {table} (sn, ip) values ({self.sn},\'{self.ip}\')')
-            result = cur.execute(f'INSERT into printers (sn, ip) values (\'{self.sn}\',\'{self.ip}\')')
+            print(
+                f'INSERT into {table} (sn, ip) values ({self.sn},\'{self.ip}\')')
+            result = cur.execute(
+                f'INSERT into printers (sn, ip) values (\'{self.sn}\',\'{self.ip}\')')
             conn.commit()
             print(result)
         except Exception as error:
@@ -21,12 +23,12 @@ class Printer:
         arrResult = []
         for qr in queryResult:
             arrResult.append(dict(zip(column_names, qr)))
-        return(arrResult)    
+        return (arrResult)
 
     def load(dictAttrs, conn):
         try:
             query = f'Select * from {table} where '
-            for key,attr in dictAttrs:
+            for key, attr in dictAttrs:
                 query.append(f'{key}={attr},')
             query = query[0:-1]
             query.append(' order by {pk}')
@@ -45,4 +47,3 @@ class Printer:
             return Printer.getDict(result, column_names)
         except Exception as error:
             print(error)
-        

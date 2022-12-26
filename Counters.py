@@ -1,4 +1,3 @@
-from sqlite3 import Error
 from datetime import datetime, date
 table = "counters"
 pk = "id"
@@ -32,7 +31,7 @@ class Counter:
             result = cur.execute(query)
             conn.commit()
             return result
-        except Error as error:
+        except Exception as error:
             print(error)
 
     def toDict(self):

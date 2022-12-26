@@ -6,3 +6,5 @@ __pycache__/
 impressoras.json
 populatePrinters.py
 geckodriver.log
+DBLoad.py
+counters_mock.py

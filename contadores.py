@@ -1,13 +1,7 @@
-import json
-import sys
-import time
-import csv
-from webbrowser import get
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
-import DBLoad
 import Counters
 import Printers
 import Failures
