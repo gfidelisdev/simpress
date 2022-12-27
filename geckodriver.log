@@ -20902,3 +20902,801 @@ DevTools listening on ws://127.0.0.1:40093/devtools/browser/910f4498-e31c-480b-b
 =======
 >>>>>>> 30498bf55b7f79f724d4c6f607ac8fbb4dabf737
 >>>>>>> 0e4c6abbb14302bc54b746a5bfeb34da962833b1
+1671741592454	geckodriver	INFO	Listening on 127.0.0.1:63328
+1671741595434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofilebbT972"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671741597217	Marionette	INFO	Marionette enabled
+1671741597221	Marionette	INFO	Listening on port 63446
+WebDriver BiDi listening on ws://localhost:63327
+Read port: 63446
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671741598196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileW3EfO9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63335/devtools/browser/e9c4a648-1bbf-4d1e-b730-8bba7ae57ed2
+1671741608901	Marionette	INFO	Stopped listening on port 63436
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\[Parent 28764, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+ecko/ipc/chromium/src/base/process_util_win.cc:167
+1671741611036	geckodriver	INFO	Listening on 127.0.0.1:63846
+1671741614975	mozrunner::runner	INFO	Running command: "C:\\P1671741615821	mozrunner::runner	INFO	Running command: "C:\\P1671741615822	mozrunner::runner	INFO	Running command: "C:\\P1671741616112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-porconsole.error: Enterprise Policies: 
+  Unknown policy: Disaconsole.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown pconsole.error: Enterprise Policies: 
+  Unknown policy: Disaconsole.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Un1671741618145	Marionette	INFO	Marionette enabled
+16717416181671741618175	Marionette	INFO	Marionette enabled
+16717416181671741618454	Marionette	INFO	Marionette enabled
+16717416181671741618506	Marionette	INFO	Marionette enabled
+1671741618511	Marionette	INFO	Listening on poRead port: 63968
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: Web[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not op[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settinDevTools listening on ws://localhost:61671741625856	Marionette	INFO	Stopped listening on port 63931671741629027	Marionette	INFO	Stopped listening on port 63948
+console.error: se[Parent 31300, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+te.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofile1XvnJN\protections.sqlite
+C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofileWiRPHj\protections.sqlite
+otections.sqlite#0: waiting for shutdown"
+1671741629756	geckodriver	INFO	Listening on 127.0.0.1:64313
+1671741633042	mozrunner::runner	INFO	Running command: "C:\\P1671741633229	mozrunner::runner	INFO	Running command: "C:\\P1671741633313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "1671741633421	mozrunner::runner	INFO	Running command: "C:\\P1671741633529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firconsole.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensi*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Un1671741634903	Marionette	INFO	Marionette enabled
+1671741634909	Marionette	INFO	Listening on port 64430
+WebDriver BiDi listening on ws://localhost:64323
+Read port: 64430
+console.1671741635324	Marionette	INFO	Marionette enabled
+1671741635332	Marionette	INFO	Listening on port 64441
+WebDriver BiDi listening on ws://localhost:64337
+Read port: 64440
+console.[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settinDe[GFX1-]: RenderCompositorSWGL failed mapping default frameDevTools listenconsole.warn: SearchSet1671741660809	Marionette	INFO	Stopped listening on port 64401
+!!! error running onStopped callback: TypeError: callback is not a function
+ onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tab1671741660424	Marionette	INFO	Stopped listening on port 64441
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 30984, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+e
+[Parent 30196, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+romium/src/base/process_util_win.cc:167
+1671741642465	geckodriver	INFO	Listening on 127.0.0.1:64710
+1671741646292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64711" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofilejZzNcW"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671741647557	Marionette	INFO	Marionette enabled
+1671741647561	Marionette	INFO	Listening on port 64833
+WebDriver BiDi listening on ws://localhost:64711
+Read port: 64833
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671741648138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1671741649048	geckodriver	INFO	Listening on 127.0.0.1:64844
+1671741652261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64849" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Loca1671741652677	Marionette	INFO	Stopped listening on port 64833
+!!! erroconsole.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.eJavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofilejZzNcW\protections.sqlite
+[Parent 31736, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/1671741653429	Marionette	INFO	Marionette enabled
+1671741653434	Marionette	INFO	Listening on port 64918
+WebDriver BiDi listening on ws://localhost:64843
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+Read port: 64918
+1671741653766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofile5UXRpE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64843/devtools/browser/c4deb2ef-bfe8-45e9-8f41-5414be957d7f
+1671741660841	Marionette	INFO	Stopped listening on port 64917
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Parent 10056, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1671764403208	geckodriver	INFO	Listening on 127.0.0.1:63163
+1671764406166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63164" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofile9vNpKs"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671764408446	Marionette	INFO	Marionette enabled
+1671764408450	Marionette	INFO	Listening on port 63285
+WebDriver BiDi listening on ws://localhost:63166
+Read port: 63283
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671764410781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofile0Ha643\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63168/devtools/browser/900d8daf-d5c5-4640-a01b-59717d180238
+1671764426538	Marionette	INFO	Stopped listening on port 63284
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+wser/44a867bb-6639-4e01-a712-97ac1ddbf905
+1671764427304	Marionette	INFO	Stopped listening on port 63267
+!!! error running onStopped callback: TypeError: callback is not a function
+94: TypeError: this.tablesData[table] is undefined
+1671764429300	geckodriver	INFO	Listening on 127.0.0.1:63812
+1671764432483	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "1671764432734	mozrunner::runner	INFO	Running command: "C:\\P1671764432761	mozrunner::runner	INFO	Running command: "C:\\P1671764433020	mozrunner::runner	INFO	Running command: "*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671764439437	Marionette	INFO	Marionette enabled
+1671764439443	Marionette	INFO	Listening on port 64108
+WebDriver BiDi listening on ws://localhost:63807
+Read port: 64108
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671764439733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileeT7LIf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63809/devtools/browser/692fb71f-0712-4e0a-8808-0883db8fcd09
+1671764447972	Marionette	INFO	Stopped listening on port 64103
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofileg66fR2\protections.sqlite
+o/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+t] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671764448556	geckodriver	INFO	Listening on 127.0.0.1:64464
+1671764451531	mozrunner::runner	INFO	Running command: "C:\\P1671764451863	mozrunner::runner	INFO	Running command: "C:\\P1671764451931	mozrunner::runner	INFO	Running command: "C:\\P1671764452386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\*** You are running in headless mode.
+console.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671764462819	Marionette	INFO	Marionette enabled
+1671764462824	Marionette	INFO	Listening on port 64974
+WebDriver BiDi listening on ws://localhost:64483
+Read port: 64974
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671764463196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.S1671764478017	Marionette	INFO	Stopped listening on port 64533
+[Parent 7464, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:1671764486711	Marionette	INFO	Stopped listening on port 64961
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+leg05crd\protections.sqlite
+mon/ipc_channel_win.cc:554
+[Parent 31008, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671764466146	geckodriver	INFO	Listening on 127.0.0.1:65060
+1671764469400	mozrunner::runner	INFO	Running command: "C:\\P1671764469463	mozrunner::runner	INFO	Running command: "C:\\P1671764469777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "65071" "--remote-allow-hosts" "localhost" "-no-remote" "console.error: Enterp*** You are running in headless mode.
+console.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671764472058	Marionette	INFO	Marionette enabled
+1671764472063	Marionette	INFO	Listening on port 65215
+WebDriver BiDi listening on ws://localhost:65072
+Read port: 65215
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671764472414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofile4eMOxe\\search.json1671764475140	Marionette	INFO	Stopped listening on port 65151671764478207	Marionette	INFO	Stopped listening on port 65181671764479264	Marionette	INFO	Stopped listening on port 65206
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1671850803187	geckodriver	INFO	Listening on 127.0.0.1:56003
+1671850806159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56006" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileySh0zh"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671850808465	Marionette	INFO	Marionette enabled
+1671850808469	Marionette	INFO	Listening on port 56123
+WebDriver BiDi listening on ws://localhost:56004
+Read port: 56120
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671850811177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileEtiW0N\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 765))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:56008/devtools/browser/4f57792f-a34c-4db3-b91c-91cba1a5f927
+1671850829172	Marionette	INFO	Stopped listening on port 56090
+[Parent 28332, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1671850831056	geckodriver	INFO	Listening on 127.0.0.1:56747
+1671850834267	mozrunner::runner	INFO	Running command: "C:\\P1671850834314	mozrunner::runner	INFO	Running command: "C:\\P1671850834640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "1671850834839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firconsole.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.er*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.er*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671850848067	Marionette	INFO	Marionette enabled
+1671850848076	Marionette	INFO	Listening on port 57396
+WebDriver BiDi listening on ws://localhost:56770
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+Read port: 57396
+1671850848255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofilebBOSj9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56770/devtools/browser/62b5e04c-f15c-4fc3-b9da-f6fbc9cefc50
+1671851119300	Marionette	INFO	Stopped listening on port 56960
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+[Parent 8944, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1671850851322	geckodriver	INFO	Listening on 127.0.0.1:57473
+1671850854745	mozrunner::runner	INFO	Running command: "C:\\P1671850854924	mozrunner::runner	INFO	Running command: "C:\\P1671850855150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57481" "--remote-allow-hosts" "localhost" "-no-remote" "console.error: Enterp1671850858042	mozrunner::runner	INFO	Running command: "C:\\P*** You are running in headless mode.
+console.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableEx*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671850866814	Marionette	INFO	Marionette enabled
+1671850866819	Marionette	INFO	Listening on port 57918
+WebDriver BiDi listening on ws://localhost:57550
+Read port: 57918
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671850867060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapp1671850879601	Marionette	INFO	Stopped listening on port 57571
+get: No settings file exists, new profile?" (new NotFound1671850868862	Marionette	INFO	Stopped listening on port 57751671850872308	Marionette	INFO	Stopped listening on port 57893
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/mo1671850890196	Marionette	INFO	Stopped listening on port 57918
+n. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofile4YrlhG\protections.sqlite
+ been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofiled6Yv7v\protections.sqlite
+1671850867955	geckodriver	INFO	Listening on 127.0.0.1:57932
+1671850870523	mozrunner::runner	INFO	Running command: "C:\\P1671850871238	mozrunner::runner	INFO	Running command: "C:\\P1671850871684	mozrunner::runner	INFO	Running command: "C:\\P1671850873155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58002" "--remote-allow-hosts" "localhost" "-no-remote" "1671850873788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileMcz1Q7"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671850878116	Marionette	INFO	Marionette enabled
+1671850878121	Marionette	INFO	Listening on port 58234
+WebDriver BiDi listening on ws://localhost:58007
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+Read port: 58234
+1671850878290	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings f1671850880998	Marionette	INFO	Stopped listening on port 58091671850881253	Marionette	INFO	Stopped listening on port 58124
+[Parent 2412, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+6215-468b-b4fe-d9514b5f1f3f
+1671850884071	Marionette	INFO	Stopped listening on port 58234
+rror: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1671937203263	geckodriver	INFO	Listening on 127.0.0.1:62595
+1671937206154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62592" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileGGVUwG"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671937208875	Marionette	INFO	Marionette enabled
+1671937208882	Marionette	INFO	Listening on port 62704
+WebDriver BiDi listening on ws://localhost:62586
+Read port: 62704
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671937211193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofile0Iy0uT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62592/devtools/browser/22be7741-f10b-4058-9638-2b918fa2a94c
+1671937229040	Marionette	INFO	Stopped listening on port 62689
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: thi1671937229689	Marionette	INFO	Stopped listening on port 62683
+!!! error running onStopped callback: TypeError: callback is not a function
+94: TypeError: this.tablesData[table] is undefined
+1671937231372	geckodriver	INFO	Listening on 127.0.0.1:63204
+1671937234499	mozrunner::runner	INFO	Running command: "C:\\P1671937234769	mozrunner::runner	INFO	Running command: "C:\\P1671937235005	mozrunner::runner	INFO	Running command: "C:\\P1671937235335	mozrunner::runner	INFO	Running command: "C:\\P1671937235575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63227" "--remote-allow-hosts" "localhost" "-no-remote" "console.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671937240075	Marionette	INFO	Marionette enabled
+1671937240080	Marionette	INFO	Listening on port 63432
+WebDriver BiDi listening on ws://localhost:63215
+Read port: 63432
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1671937240457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Not1671937249723	Marionette	INFO	Stopped listening on port 63273
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is1671937250744	Marionette	INFO	Stopped listening on port 63431671937251105	Marionette	INFO	Stopped listening on port 63428
+!!! error running onStopped callback: TypeError: callback is not a function
+unction
+1671937252290	geckodriver	INFO	Listening on 127.0.0.1:63945
+1671937255607	mozrunner::runner	INFO	Running command: "C:\\P1671937255916	mozrunner::runner	INFO	Running command: "C:\\P1671937256118	mozrunner::runner	INFO	Running command: "C:\\P1671937256349	mozrunner::runner	INFO	Running command: "C:\\P1671937256733	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63969" "--remote-allow-hosts" "localhost" "-no-remote" "console.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671937269138	Marionette	INFO	Marionette enabled
+1671937269143	Marionette	INFO	Listening on port 64397
+WebDriver BiDi listening on ws://localhost:63955
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+Read port: 64397
+1671937269449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileZ39SN1\\search.json1671937279805	Marionette	INFO	Stopped listening on port 64022
+5/devtools/browser/5bdb5ff5-960b-4171-8a85-ecbf4159eb55
+1671937274885	Marionette	INFO	Stopped listening on port 64397
+g on port 6428conJavaScript error: resource://gre/modules1671937568780	Marionette	INFO	Stopped listening on port 64304
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofile4hCTxk\protections.sqlite
+r::runner	INFO	Running command: "C:\\P1671937274454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64451" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1671937276024	Marionette	INFO	Marionette enabled
+1671937276035	Marionette	INFO	Listening on port 64567
+WebDriver BiDi listening on ws://localhost:64432
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+Read port: 64567
+1671937276241	RemoteAgent	WARN	TLS certificate errors will b1671937276807	RemoteAgent	WA[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileEZBzpe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61671937279108	Marionette	INFO	Stopped listening on port 64491671937283761	Marionette	INFO	Stopped listening on port 64561671937283954	Marionette	INFO	Stopped listening on port 64566
+lite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofileGACe75\protections.sqlite
+[Parent 28224, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1672023603205	geckodriver	INFO	Listening on 127.0.0.1:60596
+1672023606187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "60607" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofilegBBhWC"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1672023609255	Marionette	INFO	Marionette enabled
+1672023609259	Marionette	INFO	Listening on port 60718
+WebDriver BiDi listening on ws://localhost:60594
+Read port: 60718
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1672023609954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileqPfBsP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60601/devtools/browser/4b0abf59-9dad-4f11-a28c-3c62ef5748ac
+1672023627706	Marionette	INFO	Stopped listening on port 60685
+!!! error running onStopped callback: TypeError: callback is not a function
+Tools listening on ws://localhost:60611/devtools/browser/92907d29-5501-438c-a5e1-bac50d73b637
+1672023628228	Marionette	INFO	Stopped listening on port 60688
+[Parent 21736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1672023629605	geckodriver	INFO	Listening on 127.0.0.1:61235
+1672023632845	mozrunner::runner	INFO	Running command: "C:\\P1672023633377	mozrunner::runner	INFO	Running command: "C:\\P1672023633570	mozrunner::runner	INFO	Running command: "C:\\P1672023633660	mozrunner::runner	INFO	Running command: "C:\\P1672023633707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-porconsole.error: Enterp*** You are running in headless mode.
+console.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: Disaconsole.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1672023640945	Marionette	INFO	Marionette enabled
+16720236401672023641130	Marionette	INFO	Marionette enabled
+1672023641136	Marionette	INFO	Listening on port 61592
+WebDriver BiDi listening on ws://localhost:61267
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on Website1672023641295	RemoteAgent	WA[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSet1672023644044	Marionette	INFO	Stopped listening on port 61301672023644785	Marionette	INFO	Stopped listening on port 61351672023646340	Marionette	INFO	Stopped listening on port 61381672023647441	Marionette	INFO	Stopped listening on port 61551672023650327	Marionette	INFO	Stopped listening on port 61585
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofile2mEqqI\protections.sqlite
+[Parent 6028, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_wi1672023651570	mozrunner::runner	INFO	Running command: "C:\\P1672023651769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "1672023652098	mozrunner::runner	INFO	Running command: "C:\\P1672023653403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionet1672023654536	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.console.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableEx*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1672023665203	Marionette	INFO	Marionette enabled
+1672023665208	Marionette	INFO	Listening on port 62464
+WebDriver BiDi listening on ws://localhost:61950
+Read port: 62464
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1672023665379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapp1672023676594	Marionette	INFO	Stopped listening on port 61963
+!!! error running onStopped callback: TypeError: callback is not a function
+n the file at C:\\Users\\GUILHE~1.SIL\\A1672023667577	Marionette	INFO	Stopped listening on port 62201672023682176	Marionette	INFO	Stopped listening on port 62172
+!!! error running onStopped callback: TypeError: callback is not a function
+INFO	Stopped listening on port 62464
+:62507
+1672023672535	mozrunner::runner	INFO	Running command: "C:\\P1672023672792	mozrunner::runner	INFO	Running command: "C:\\P1672023672797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62519" "--remote-*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown pconsole.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1672023675118	Marionette	INFO	Marionette enabled
+1672023675148	Marionette	INFO	Listening on port 62609
+WebDriver BiDi listening on ws://localhost:62519
+Read port: 62609
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exc[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not DevTools listening on ws://localhost:62508/devtools/browser/b2d3b989-5293-4f57-a5ed-571faadf07e4
+1672023680759	Marionette	INFO	Stopped listening on port 62590
+console.error: services.settings: 
+  main/query-strippin1672023682749	Marionette	INFO	Stopped listening on port 62609
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofileb3jQCJ\protections.sqlite
+lite#0: waiting for shutdown"
+1672110003324	geckodriver	INFO	Listening on 127.0.0.1:57920
+1672110006222	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57923" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofile179OM0"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1672110008871	Marionette	INFO	Marionette enabled
+1672110008876	Marionette	INFO	Listening on port 58044
+WebDriver BiDi listening on ws://localhost:57931
+Read port: 58044
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+1672110011055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofileeCkLig\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57935/devtools/browser/6af7ccbd-c64e-498b-8ba3-93c81e0a26f1
+1672110030611	Marionette	INFO	Stopped listening on port 58040
+[Parent 23924, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+4620-b7c2-f29939c30c43
+1672110030403	Marionette	INFO	Stopped listening on port 58018
+[Parent 30520, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1672110031942	geckodriver	INFO	Listening on 127.0.0.1:58590
+1672110035149	mozrunner::runner	INFO	Running command: "C:\\P1672110035376	mozrunner::runner	INFO	Running command: "C:\\P1672110036068	mozrunner::runner	INFO	Running command: "C:\\P1672110036367	mozrunner::runner	INFO	Running command: "C:\\P1672110036374	mozrunner::runner	INFO	Running command: "C:\\P1672110036846	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58619" "--remote-allow-hosts" "localhost" "-no-remote" "console.error: Enterprise Policies: 
+  Unknown policy: Disaconsole.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1672110043318	Marionette	INFO	Marionette enabled
+1672110043322	Marionette	INFO	Listening on port 58916
+WebDriver BiDi listening on ws://localhost:58622
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://1[GFX1-]: RenderRead port: 58916
+1672110045166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSet1672110051316	Marionette	INFO	Stopped listening on port 58651672110053186	Marionette	INFO	Stopped listening on port 58656
+2110051995	Marionette	INFO	Stopped listening on port 58681672110053234	Marionette	INFO	Stopped listening on port 58850
+!!! error running onStopped callback: TypeError: callback1672110054822	Marionette	INFO	Stopped listening on port 58916
+!!! error running onStopped callback: TypeError: callback is1672110057846	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59320" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUILHE~1.SIL\\AppData\\Local\\Temp\\rust_mozprofilenR6CIO"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise 1672110059376	mozrunner::runner	INFO	Running command: "C:\\P1672110059386	mozrunner::runner	INFO	Running command: "C:\\P1672110059602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59351" "--remote-*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Poconsole.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1672110069689	Marionette	INFO	Marionette enabled
+1672110069694	Marionette	INFO	Listening on port 59718
+WebDriver BiDi listening on ws://localhost:59356
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+1672110074003	Marionette	INFO	Stopped listening on port 59385
+siteFilter. Exception: https://127.0.0.1:9003
+Read port: 59718
+1672110069889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Not1672110083978	Marionette	INFO	Stopped listening on port 59386
+2110076446	Marionette	INFO	Stopped listening on port 59508
+!!! error running onStopped callback: TypeError: callback is not a functio1672110088694	Marionette	INFO	Stopped listening on port 59453
+ette	INFO	Stopped listening on port 59718
+ck: TypeError: callback is not a function
+1672110078125	geckodriver	INFO	Listening on 127.0.0.1:59892
+1672110081352	mozrunner::runner	INFO	Running command: "C:\\P1672110081773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\*** You are running in headless mode.
+console.error: Enterp*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Unknown policy: DisableUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableExtensionsUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: DisableSearchUpdate
+console.error: Enterprise Policies: 
+  Unknown policy: SupressUpdatePage
+console.error: Enterprise Policies: 
+  Unknown policy: HomepageDisplay
+console.error: Enterprise Policies: 
+  Unknown policy: CustomHomepage
+console.error: Enterprise Policies: 
+  Unknown policy: DisableDefaultCheck
+1672110085296	Marionette	INFO	Marionette enabled
+1672110085300	Marionette	INFO	Listening on port 60009
+WebDriver BiDi listening on ws://localhost:59896
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9000
+console.error: WebsiteFilter Policy: 
+  Invalid pattern on WebsiteFilter. Exception: https://127.0.0.1:9003
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "g[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file aRead port: 59995
+1672110086694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:51672110089274	Marionette	INFO	Stopped listening on port 59931672110092179	Marionette	INFO	Stopped listening on port 60009
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GUILHE~1.SIL\AppData\Local\Temp\rust_mozprofileBx89Lm\protections.sqlite
