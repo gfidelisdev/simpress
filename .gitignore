@@ -9,3 +9,4 @@ geckodriver.log
 geckodriver.log
 DBLoad.py
 counters_mock.py
+tester.py

@@ -62,6 +62,15 @@ def get_total_impressoes(driver):
 def get_total_copias(driver):
     return driver.find_element(By.ID, 'UsagePage.ImpressionsByMediaSizeTable.Copiar.TotalTotal').text.replace(',', '')
 
+def get_total_impressoes_color(driver):
+    return driver.find_element(By.ID, 'UsagePage.ImpressionsByMediaSizeTable.Imprimir.TotalTotal').text.replace(',', '')
+
+# Obtém o total de cópias (contador) já realizadas pela impressora
+
+
+def get_total_copias_color(driver):
+    return driver.find_element(By.ID, 'UsagePage.ImpressionsByMediaSizeTable.Copiar.TotalTotal').text.replace(',', '')
+
 # Obtém o total de digitalizações realizadas pela impressora
 
 
