@@ -23,6 +23,8 @@ CREATE TABLE IF NOT EXISTS `counters` (
   `printer_id` int(10) unsigned NOT NULL,
   `total_prints` int(11) DEFAULT NULL,
   `total_copies` int(11) DEFAULT NULL,
+  `total_prints_color` int(11) DEFAULT NULL,
+  `total_copies_color` int(11) DEFAULT NULL,
   `total_scans` int(11) DEFAULT NULL,
   `created_at` datetime NOT NULL,
   PRIMARY KEY (`id`),
