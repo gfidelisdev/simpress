@@ -8,9 +8,11 @@ class Counter:
     created_at = None
     printer_id = None
 
-    def __init__(self, printer_id, total_prints, total_copies, total_scans, created_at=None):
+    def __init__(self, printer_id, total_prints, total_copies, total_scans, total_prints_color=None, total_copies_color=None, created_at=None):
         self.total_copies = 'null' if total_copies is None else total_copies
         self.total_prints = 'null' if total_prints is None else total_prints
+        self.total_copies_color = 'null' if total_copies_color is None else total_copies_color
+        self.total_prints_color = 'null' if total_prints_color is None else total_prints_color
         self.total_scans = 'null' if total_scans is None else total_scans
         self.printer_id = printer_id
         self.created_at = created_at
@@ -25,8 +27,10 @@ class Counter:
         try:
             cur = conn.cursor()
             self.setCreatedAt(self.created_at)
-            query = f'INSERT into {table} (total_prints, total_copies, total_scans,created_at,printer_id) \
-                values ({self.total_prints},{self.total_copies},{self.total_scans},\'{self.created_at}\',{self.printer_id})'
+            query = f'INSERT into {table} (total_prints, total_copies, total_scans, total_prints_color, total_copies_color ,created_at,printer_id) \
+                values ({self.total_prints},{self.total_copies},{self.total_scans},\
+                    {self.total_prints_color},{self.total_copies_color},\
+                    \'{self.created_at}\',{self.printer_id})'
             print(query)
             result = cur.execute(query)
             conn.commit()
@@ -40,6 +44,8 @@ class Counter:
             "total_copies": self.total_copies,
             "total_scans": self.total_scans,
             "total_prints": self.total_prints,
+            "total_copies_color": self.total_copies_color,
+            "total_prints_color":self.total_prints_color,
             "printer_id": self.printer_id
         }
 

@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `counters` (
   PRIMARY KEY (`id`),
   KEY `FK_counters_printers` (`printer_id`),
   CONSTRAINT `FK_counters_printers` FOREIGN KEY (`printer_id`) REFERENCES `printers` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=200 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Exportação de dados foi desmarcado.
 
@@ -51,10 +51,11 @@ CREATE TABLE IF NOT EXISTS `printers` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `sn` varchar(10) NOT NULL,
   `ip` varchar(15) NOT NULL,
+  `type` ENUM('M','C') NOT NULL COLLATE 'latin1_swedish_ci',
   PRIMARY KEY (`id`),
   UNIQUE KEY `sn` (`sn`),
   UNIQUE KEY `ip` (`ip`)
-) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Exportação de dados foi desmarcado.
 

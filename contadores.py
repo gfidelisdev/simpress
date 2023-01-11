@@ -63,13 +63,13 @@ def get_total_copias(driver):
     return driver.find_element(By.ID, 'UsagePage.ImpressionsByMediaSizeTable.Copiar.TotalTotal').text.replace(',', '')
 
 def get_total_impressoes_color(driver):
-    return driver.find_element(By.ID, 'UsagePage.ImpressionsByMediaSizeTable.Imprimir.TotalTotal').text.replace(',', '')
+    return driver.find_element(By.ID, 'UsagePage.ImpressionsByMediaSizeTable.Imprimir.ColorTotal').text.replace(',', '')
 
 # Obtém o total de cópias (contador) já realizadas pela impressora
 
 
 def get_total_copias_color(driver):
-    return driver.find_element(By.ID, 'UsagePage.ImpressionsByMediaSizeTable.Copiar.TotalTotal').text.replace(',', '')
+    return driver.find_element(By.ID, 'UsagePage.ImpressionsByMediaSizeTable.Copiar.ColorTotal').text.replace(',', '')
 
 # Obtém o total de digitalizações realizadas pela impressora
 
@@ -85,6 +85,8 @@ def getAttrsImpressoras(impressora):
     total_copias = None
     total_digitalizacoes = None
     total_impressoes = None
+    total_copias_color = None
+    total_impressoes_color = None
     try:
         driver.get(
             f'https://{impressora["ip"]}/hp/device/InternalPages/Index?id=UsagePage')
@@ -92,6 +94,12 @@ def getAttrsImpressoras(impressora):
         total_impressoes = get_total_impressoes(driver)
         total_copias = get_total_copias(driver)
         total_digitalizacoes = get_total_digitalizacoes(driver)
+        if (impressora["type"] == "C"):
+            total_copias_color = get_total_copias_color(driver)
+            total_impressoes_color = get_total_impressoes_color(driver)
+            total_copias = int(total_copias) - int(total_copias_color)
+            total_impressoes = int(total_impressoes) - int(total_impressoes_color)
+            print(f'Dados de impressora colorida {impressora["ip"]}')
         print(f'trying with ip {impressora["ip"]}')
     except Exception as error:
         print(error)
@@ -99,7 +107,13 @@ def getAttrsImpressoras(impressora):
         driver.close()
         driver.quit()
     # Retorna um dicionário com os dados obtidos
-    return {'sn': sn, 'total_prints': total_impressoes, 'total_copies': total_copias, 'total_scans': total_digitalizacoes, 'printer_id': impressora["id"]}
+    return {'sn': sn, 
+            'total_prints': total_impressoes, 
+            'total_copies': total_copias, 
+            'total_scans': total_digitalizacoes, 
+            'total_prints_color':total_impressoes_color,
+            'total_copies_color':total_copias_color,
+            'printer_id': impressora["id"]}
 
 # Obtém os contadores da lista de todas as impressoras (execução em paralelo)
 
@@ -132,11 +146,16 @@ def main():
     # conn = DBLoad.create_connection('./db.sqlite3')
     conn = get_connection()
     printers = Printers.Printer.loadAll(conn)
+    # printers = [
+    #     {"id":21,"sn":"BRBSPCR0H9", "ip":"10.4.11.216","type":"C"}
+    # ]
     result = getCounters(printers)
     for counter in result:
         if counter["sn"] is not None:
             counterObj = Counters.Counter(
-                counter["printer_id"], counter["total_prints"], counter["total_copies"], counter["total_scans"])
+                printer_id=counter["printer_id"], total_prints=counter["total_prints"], 
+                total_copies=counter["total_copies"], total_scans=counter["total_scans"],
+                total_copies_color=counter["total_copies_color"], total_prints_color=counter["total_prints_color"])
             try:
                 counterObj.save(conn)
             except:
