@@ -8,7 +8,7 @@ import Failures
 import concurrent.futures
 import mysql.connector
 import platform
-
+from os import path
 
 # Abre o arquivo .env na pasta que possui as variáveis com os dados de conexão à base de dados
 def get_env_variables():
@@ -39,7 +39,7 @@ def get_driver():
     options = Options()
     options.headless = True
     executable = './geckodriver.exe' if platform.system() == 'Windows' else './geckodriver'
-    service = Service(executable_path=executable)
+    service = Service(executable_path=executable, log_path=path.devnull)
     # driver = webdriver.Firefox(service=service)
     driver = webdriver.Firefox(service=service, options=options)
     return driver
