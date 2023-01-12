@@ -143,12 +143,8 @@ def getCountersST(impressoras):
 
 
 def main():
-    # conn = DBLoad.create_connection('./db.sqlite3')
     conn = get_connection()
     printers = Printers.Printer.loadAll(conn)
-    # printers = [
-    #     {"id":21,"sn":"BRBSPCR0H9", "ip":"10.4.11.216","type":"C"}
-    # ]
     result = getCounters(printers)
     for counter in result:
         if counter["sn"] is not None:
